@@ -41,14 +41,6 @@ public class MusicSearcher {
 		return fac.getOWLClass(getIRI(name));
 	}
 
-	public OWLObjectProperty op(String name) {
-		return fac.getOWLObjectProperty(getIRI(name));
-	}
-
-	public OWLDataProperty dp(String name) {
-		return fac.getOWLDataProperty(getIRI(name));
-	}
-
 	public OWLNamedIndividual ind(String name) {
 		return fac.getOWLNamedIndividual(getIRI(name));
 	}
